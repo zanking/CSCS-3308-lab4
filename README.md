@@ -1,4 +1,4 @@
 # CSCS-3308-lab4
-#Zanqing Feng
+#Partner
 #CHi Liu
 #Frank Mukendi
