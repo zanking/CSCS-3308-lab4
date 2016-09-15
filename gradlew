@@ -5,6 +5,7 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
+#steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9steps 9
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
