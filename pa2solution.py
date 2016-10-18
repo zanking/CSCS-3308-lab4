@@ -3,8 +3,8 @@ from __future__ import print_function
 import sys
 import random
 
-# NAME:
-# STUDENT ID NUMBER:
+# NAME: Zanqing Feng
+# STUDENT ID NUMBER: 102077587
 # On my honor as a University of Colorado Boulder student, I have not received any unauthorized help.
 # I also realize that plagiarizing code defeats the purpose of an assignment like this and that the
 # instructors and TAs have very sophisticated approaches to finding such plagiarism that can defeat
