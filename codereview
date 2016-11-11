@@ -1,0 +1,23 @@
+// Code review for snippet1
+* o is a very non-descriptive class name.
+* Same for i, b, p
+* All method/variable names are very non-descriptive
+* line 32 references self.path, which is possibly uninitialized
+* Lack of descriptive naming obfuscates the logic in the 'r' method
+
+
+// Code review for snippet2
+* todo still remaining in code at line 21. Needs to be completed. Line 22 references self.path, which does not exist until the todo is completed
+* Would be nice to be able to change path/interval
+* Would it be more self-documenting to move the contents on lines 33 - 49 to a separate function?
+* Comment on line 38 should be addressed. 
+* todo still present in line 52
+* Should wrap lines 55-58 in a 'main' function, or better yet, create a unit testing file which runs the class and it's methods, and remove lines 55-58 entirely.
+
+// Code review for snippet3
+* It would be ideal to not have the path hard-coded into the init function itself. It would be nice to have a way to easily change this parameter, possibly through a config file
+* Could move lines 39-52 into a separate function to help readability
+* line 41 would only work for unix systems. Windows based systems ahve a different filepath separator. Many languages offer support for getting the filepath separator of the current OS, and python probably does too. 
+* We never check to see fi the file opening was successful on line 41. We probably want to check that
+* For code durability, the key 'Type' on lines 47 - 52 should be a class variable, and constant. Similarly, we can do the same for 'alarm', 'Door', and 'img'. This eases code fragility if any of those keywords are used anywhere else. 
+* Line 57, is that acutally an avg?
